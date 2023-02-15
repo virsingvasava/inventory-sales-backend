@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <title>Notification</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nice-select.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="l-navbar" id="nav-bar">
+        <div class="profile-sec">
+            <img class="profile-img" src="images/user-sagar.png" alt="User-Profile-Image">
+            <div class="user-details">
+              Sagar Gupta<span class="ud-des">Designation</span>
+            </div>
+        </div>
+
+        <nav class="nav user">
+            <div class="nav_list">
+              <ul>
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/dashboard.png" alt="Dashboard" /><img class="purple-nav-icon" src="images/dashboard-h.png" alt="Dashboard">
+                        <span>Dashboard</span> </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/inventory.png" alt="Inventory"> <img class="purple-nav-icon" src="images/inventory-h.png" alt="Inventory" /> <span>Inventory</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/products.png" alt="Products" /> <img class="purple-nav-icon" src="images/products-h.png" alt="Products">
+                        <span>Products</span> </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/user-management.png" alt="User Management" /> <img class="purple-nav-icon" src="images/user-management-h.png" alt="User Management">
+                        <span>User Management</span> </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/customer-feedback.png" alt="Customer Feedback" /> <img class="purple-nav-icon" src="images/customer-feedback-h.png" alt="Customer Feedback">
+                        <span>Customer Feedback</span> </a>
+                </li>
+                
+                <li>
+                    <a href="#" class="nav_link active"> <img class="gray-nav-icon" src="images/notifications.png" alt="Notifications" /> <img class="purple-nav-icon" src="images/notifications-h.png" alt="Notifications" />
+                        <span>Notifications</span> </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/settings.png" alt="Settings" /><img class="purple-nav-icon" src="images/settings-h.png" alt="Settings" />
+                        <span>Settings</span> </a>
+                </li>
+              
+            </ul>
+            </div>
+        </nav>
+    </div>
+
+<div class="main-content-part">
+    <div class="main-content-padd">
+
+<div class="title-w-arrow">
+   <h1>Notification</h1>
+    <div class="search-box">
+        <img class="search-user" src="images/search-icon.png">
+        <input class="form-control" type="text" placeholder="Search..." aria-label="Search">
+    </div>
+
+</div>
+
+
+<div class="common-table-sec notification-table">
+    <div class="row">
+    
+        <div class="col-md-12">
+ 
+<div class="table-header">
+    <div class="droupdown-select">
+        <select class="form-control">
+          <option>Pending</option>
+          <option>Inactive</option>
+        </select>
+      </div>
+        <div class="droupdown-select">
+            <select class="form-control">
+              <option>All Cities</option>
+              <option>Baroda</option>
+              <option>Mumbai</option>
+              <option>Bhopal</option>
+            </select>
+          </div>
+ 
+</div>
+<div style="clear:both;overflow:hidden;"></div>
+
+    <div class="table-border-style">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" name="k0"></th>
+                        <th>Subject</th>
+                        <th>Dated</th>
+                        <th>Status</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="pending-active">
+                        <td><input type="checkbox" name="k1"></td>
+                        <td>Kiosk_025 raised a request for Inventory of Classic.</td>
+                        <td>Today</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr class="pending-active">
+                      <td><input type="checkbox" name="k1"></td>
+                      <td>3 User verification request pending.</td>
+                      <td>Today</td>
+                      <td>Pending</td>
+                  </tr>
+                  <tr class="pending-active">
+                    <td><input type="checkbox" name="k1"></td>
+                    <td>Kiosk_032 raised a request for Inventory of Gold Flakes and Insignia.</td>
+                    <td>Today</td>
+                    <td>Pending</td>
+                </tr>
+                <tr class="pending-active">
+                  <td><input type="checkbox" name="k1"></td>
+                  <td>Kiosk_027 has issue with payment mode.</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+              </tr>
+              <tr class="pending-active">
+                <td><input type="checkbox" name="k1"></td>
+                <td>Kiosk_097 raised a request for Inventory of Classic, 555 and Insignia.</td>
+                <td>Tomorrow</td>
+                <td>Pending</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="k1"></td>
+              <td>Kiosk_021 raised a request for Inventory of  555,  Indian Kings and Insignia.</td>
+              <td>Tomorrow</td>
+              <td>Resolved</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="k1"></td>
+            <td>Kiosk_141 raised a request for Inventory of American Club,  Indian Kings and Insignia.</td>
+            <td>Tomorrow</td>
+            <td>Resolved</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="k1"></td>
+          <td>Kiosk_090 raised a request for Inventory of American Club,  Indian Kings and Insignia.</td>
+          <td>18 June,2022</td>
+          <td>Resolved</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="k1"></td>
+        <td>Kiosk_027 has issue with payment mode.</td>
+        <td>18 June,2022</td>
+        <td>Resolved</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" name="k1"></td>
+      <td>Kiosk_134 raised a request for Inventory of American Club,  Noir and B&H.</td>
+      <td>18 June,2022</td>
+      <td>Resolved</td>
+  </tr>
+                      
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+    
+  
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+<div class="h30"></div>
+
+
+
+</div>
+</div>
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/apexcharts.min.js"></script>
+    <script>
+var options = {
+  chart: {
+    height: 280,
+    type: "area"
+  },
+  dataLabels: {
+    enabled: false
+  },
+  series: [
+    {
+      name: "Series 1",
+      data: [450, 280, 370, 450, 500,450, 280, 370, 450, 500,450, 280, 370, 450, 500, 370, 450, 500]
+    }
+  ],
+  fill: {
+    type: "gradient",
+    gradient: {
+      shadeIntensity: 1,
+      opacityFrom: 0.7,
+      opacityTo: 0.9,
+      stops: [0, 90, 100]
+    }
+  },
+  xaxis: {
+    categories: [
+    "Feb 2021",
+    "Mar 2021",
+    "April 2021",
+    "May 2021",
+    "June 2021",
+    "July 2021",
+    "Aug 2021",
+    "Sep 2021",
+    "Oct 2021",
+    "Nov 2021",
+    "Dec 2021",
+    "Jan 2022",
+    "Feb 2022",
+    "Mar 2022",
+    "April 2022",
+    "May 2022",
+    "June 2022",
+    "July 2022"
+    ]
+  }
+};
+
+var chart = new ApexCharts(document.querySelector("#salsechart"), options);
+
+chart.render();
+
+    </script>
+</body>
+
+</html>

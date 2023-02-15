@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <title>Customer Feedback</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nice-select.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="l-navbar" id="nav-bar">
+        <div class="profile-sec">
+            <img class="profile-img" src="images/user-sagar.png" alt="User-Profile-Image">
+            <div class="user-details">
+              Sagar Gupta<span class="ud-des">Designation</span>
+            </div>
+        </div>
+
+        <nav class="nav user">
+            <div class="nav_list">
+              <ul>
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/dashboard.png" alt="Dashboard" /><img class="purple-nav-icon" src="images/dashboard-h.png" alt="Dashboard">
+                        <span>Dashboard</span> </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/inventory.png" alt="Inventory"> <img class="purple-nav-icon" src="images/inventory-h.png" alt="Inventory" /> <span>Inventory</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/products.png" alt="Products" /> <img class="purple-nav-icon" src="images/products-h.png" alt="Products">
+                        <span>Products</span> </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/user-management.png" alt="User Management" /> <img class="purple-nav-icon" src="images/user-management-h.png" alt="User Management">
+                        <span>User Management</span> </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_link active"> <img class="gray-nav-icon" src="images/customer-feedback.png" alt="Customer Feedback" /> <img class="purple-nav-icon" src="images/customer-feedback-h.png" alt="Customer Feedback">
+                        <span>Customer Feedback</span> </a>
+                </li>
+                
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/notifications.png" alt="Notifications" /> <img class="purple-nav-icon" src="images/notifications-h.png" alt="Notifications" />
+                        <span>Notifications</span> </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/settings.png" alt="Settings" /><img class="purple-nav-icon" src="images/settings-h.png" alt="Settings" />
+                        <span>Settings</span> </a>
+                </li>
+              
+            </ul>
+            </div>
+        </nav>
+    </div>
+
+<div class="main-content-part">
+    <div class="main-content-padd">
+
+<div class="title-w-arrow">
+   <h1>Customer Feedback</h1>
+    
+</div>
+
+
+<div class="cus-feedback">
+    <div class="row">
+    
+        <div class="col-md-12">
+          <div class="progress-vote">
+          <h3>Do you like our services?</h3>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">3,55,960 Votes</div>
+            <div class="progress-bar-right">1,44,040 Votes</div>
+          </div>
+          <div class="total-vote">Total: 5,00,000 Votes</div>
+        </div>
+
+        <div class="progress-vote">
+          <h3>Do you like our products?</h3>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width:80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">3,55,960 Votes</div>
+            <div class="progress-bar-right">1,44,040 Votes</div>
+          </div>
+          <div class="total-vote">Total: 5,00,000 Votes</div>
+        </div>
+
+        <div class="progress-vote">
+          <h3>Do you recommend us to your friend and family?</h3>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">3,55,960 Votes</div>
+            <div class="progress-bar-right">1,44,040 Votes</div>
+          </div>
+          <div class="total-vote">Total: 5,00,000 Votes</div>
+        </div>
+
+
+
+
+</div>
+    
+  
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+<div class="h30"></div>
+
+
+
+</div>
+</div>
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/apexcharts.min.js"></script>
+    <script>
+var options = {
+  chart: {
+    height: 280,
+    type: "area"
+  },
+  dataLabels: {
+    enabled: false
+  },
+  series: [
+    {
+      name: "Series 1",
+      data: [450, 280, 370, 450, 500,450, 280, 370, 450, 500,450, 280, 370, 450, 500, 370, 450, 500]
+    }
+  ],
+  fill: {
+    type: "gradient",
+    gradient: {
+      shadeIntensity: 1,
+      opacityFrom: 0.7,
+      opacityTo: 0.9,
+      stops: [0, 90, 100]
+    }
+  },
+  xaxis: {
+    categories: [
+    "Feb 2021",
+    "Mar 2021",
+    "April 2021",
+    "May 2021",
+    "June 2021",
+    "July 2021",
+    "Aug 2021",
+    "Sep 2021",
+    "Oct 2021",
+    "Nov 2021",
+    "Dec 2021",
+    "Jan 2022",
+    "Feb 2022",
+    "Mar 2022",
+    "April 2022",
+    "May 2022",
+    "June 2022",
+    "July 2022"
+    ]
+  }
+};
+
+var chart = new ApexCharts(document.querySelector("#salsechart"), options);
+
+chart.render();
+
+    </script>
+</body>
+
+</html>

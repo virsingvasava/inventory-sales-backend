@@ -1,0 +1,25 @@
+.login-box .main-content-part{padding:0;}
+.profile-main-sec{width:450px;margin: 0 auto; background: #fff;
+    border: 1px solid #C6C6C6;
+    border-radius: 20px;
+    padding: 30px;}
+.photo-upload-sec{display: block; vertical-align: top;margin: 0 auto 30px;text-align: center;}
+.title-w-arrow h1{display: block; width: 100%; text-transform: uppercase; text-align: center;margin:0 0 20px;}
+.btn-signin, .btn-signin:hover {
+    background: #AB96F1;
+    border: 0px;
+    color: #fff;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 500;width:100%;
+}
+.profile-main-sec .from-group{margin:0 0 20px;}
+a.or_forgot_btn {color: #000;}
+
+a:hover, a:focus, or_forgot_btn{
+    color: #AB96F1;
+    text-decoration: none;
+    outline: none;
+}

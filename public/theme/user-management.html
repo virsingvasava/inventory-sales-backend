@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <title>User Management</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nice-select.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="l-navbar" id="nav-bar">
+        <div class="profile-sec">
+            <img class="profile-img" src="images/user-sagar.png" alt="User-Profile-Image">
+            <div class="user-details">
+              Sagar Gupta<span class="ud-des">Designation</span>
+            </div>
+        </div>
+
+        <nav class="nav user">
+            <div class="nav_list">
+                <ul>
+                    <li>
+                        <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/dashboard.png" alt="Dashboard" /><img class="purple-nav-icon" src="images/dashboard-h.png" alt="Dashboard">
+                            <span>Dashboard</span> </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/inventory.png" alt="Inventory"> <img class="purple-nav-icon" src="images/inventory-h.png" alt="Inventory" /> <span>Inventory</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/products.png" alt="Products" /> <img class="purple-nav-icon" src="images/products-h.png" alt="Products">
+                            <span>Products</span> </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_link active"> <img class="gray-nav-icon" src="images/user-management.png" alt="User Management" /> <img class="purple-nav-icon" src="images/user-management-h.png" alt="User Management">
+                            <span>User Management</span> </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/customer-feedback.png" alt="Customer Feedback" /> <img class="purple-nav-icon" src="images/customer-feedback-h.png" alt="Customer Feedback">
+                            <span>Customer Feedback</span> </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/notifications.png" alt="Notifications" /> <img class="purple-nav-icon" src="images/notifications-h.png" alt="Notifications" />
+                            <span>Notifications</span> </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_link"> <img class="gray-nav-icon" src="images/settings.png" alt="Settings" /><img class="purple-nav-icon" src="images/settings-h.png" alt="Settings" />
+                            <span>Settings</span> </a>
+                    </li>
+                  
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+<div class="main-content-part">
+    <div class="main-content-padd">
+
+<div class="title-w-arrow">
+    <h1 class="mr20">User Management</h1><a href="#" class="badge">Add New</a><a href="#" class="badge">Import</a><a href="#" class="badge">Export</a>
+    <div class="search-box">
+        <img class="search-user" src="images/search-icon.png">
+        <input class="form-control" type="text" placeholder="Search..." aria-label="Search">
+    </div>
+
+</div>
+
+<div class="user-m-box">
+<div class="row">
+
+    <div class="col-md-12">
+        <div class="salse-whitebox">
+            <div class="c-block">
+                <div class="card-title">Total Users</div>
+                    <h3 class="gray-clr">2,780</h3>
+                    </div><div class="c-block">
+                    <div class="card-title">Active User</div>
+                        <h3 class="green-clr">890</h3>
+                    </div><div class="c-block">
+                        <div class="card-title">Pending Requests</div>
+                            <h3 class="purple-clr">31</h3>
+                            </div><div class="c-block login-user">
+                           <h3 class="pink-clr">14</h3>  <div class="card-title">users are not logged in
+                                    since last week</div>
+                                           
+                             </div>
+
+
+
+
+
+            </div>
+    </div>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="common-table-sec um-table">
+    <div class="row">
+    
+        <div class="col-md-12">
+ 
+<div class="table-header">
+    <div class="droupdown-select">
+        <select class="form-control">
+          <option>Active</option>
+          <option>Inactive</option>
+        </select>
+      </div>
+        <div class="droupdown-select">
+            <select class="form-control">
+              <option>All Cities</option>
+              <option>Baroda</option>
+              <option>Mumbai</option>
+              <option>Bhopal</option>
+            </select>
+          </div>
+ 
+</div>
+
+    <div class="table-border-style">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" name="k0"></th>
+                        <th>User Id</th>
+                        <th>User Name</th>
+                        <th>Email Id</th>
+                        <th>Role</th>
+                        <th>City</th>
+                        <th>Status</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="k1"></td>
+                        <td>User_001</td>
+                        <td>Aman Shekhawat</td>
+                        <td>AS_007@gmail.com</td>
+                        <td>Sales</td>
+                        <td>Delhi</td>
+                        <td><span class="badge">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="k1"></td>
+                        <td>User_002</td>
+                        <td>Dilip Kumar</td>
+                        <td>dilipkumar123@gmail.com</td>
+                        <td>Sales</td>
+                        <td>Delhi</td>
+                         <td><span class="badge">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="k1"></td>
+                        <td>User_003</td>
+                        <td>Devender Sharma</td>
+                        <td>DS.04567@gmail.com</td>
+                        <td>Manager</td>
+                        <td>Delhi</td>
+                         <td><span class="badge">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="k1"></td>
+                        <td>User_004</td>
+                        <td>Rajinder Prasad</td>
+                        <td>PrasadRajinder006@gmail.com</td>
+                        <td>Sales</td>
+                        <td>Delhi</td>
+                         <td><span class="badge">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="k1"></td>
+                        <td>User_005</td>
+                        <td>K. B. Rawat</td>
+                        <td>kbrawat0099@gmail.com</td>
+                        <td>Sales</td>
+                        <td>Delhi</td>
+                         <td><span class="badge">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="k1"></td>
+                        <td>User_006</td>
+                        <td>M. S. Gupta</td>
+                        <td>guptams0101@gmail.com</td>
+                        <td>Sales</td>
+                        <td>Delhi</td>
+                         <td><span class="badge">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="k1"></td>
+                        <td>User_007</td>
+                        <td>Ayushman Mishra</td>
+                        <td>amishra_908@gmail.com</td>
+                        <td>Manager</td>
+                        <td>Delhi</td>
+                         <td><span class="badge">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="k1"></td>
+                        <td>User_008</td>
+                        <td>Kamal Rajput</td>
+                        <td>k.rajput2591@gmail.com</td>
+                        <td>Sales</td>
+                        <td>Mumbai</td>
+                         <td><span class="badge">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="k1"></td>
+                        <td>User_009</td>
+                        <td>Tejvinder Singh</td>
+                        <td>7982237197@gmail.com</td>
+                        <td>Manager</td>
+                        <td>Mumbai</td>
+                         <td><span class="badge">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="k1"></td>
+                        <td>User_010</td>
+                        <td>Deepak Bagri</td>
+                        <td>D_901_Bagri@gmail.com</td>
+                        <td>Sales</td>
+                        <td>Mumbai</td>
+                         <td><span class="badge">Active</span></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+    
+
+
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+<div class="h30"></div>
+
+
+
+</div>
+</div>
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/apexcharts.min.js"></script>
+    <script>
+var options = {
+  chart: {
+    height: 280,
+    type: "area"
+  },
+  dataLabels: {
+    enabled: false
+  },
+  series: [
+    {
+      name: "Series 1",
+      data: [450, 280, 370, 450, 500,450, 280, 370, 450, 500,450, 280, 370, 450, 500, 370, 450, 500]
+    }
+  ],
+  fill: {
+    type: "gradient",
+    gradient: {
+      shadeIntensity: 1,
+      opacityFrom: 0.7,
+      opacityTo: 0.9,
+      stops: [0, 90, 100]
+    }
+  },
+  xaxis: {
+    categories: [
+    "Feb 2021",
+    "Mar 2021",
+    "April 2021",
+    "May 2021",
+    "June 2021",
+    "July 2021",
+    "Aug 2021",
+    "Sep 2021",
+    "Oct 2021",
+    "Nov 2021",
+    "Dec 2021",
+    "Jan 2022",
+    "Feb 2022",
+    "Mar 2022",
+    "April 2022",
+    "May 2022",
+    "June 2022",
+    "July 2022"
+    ]
+  }
+};
+
+var chart = new ApexCharts(document.querySelector("#salsechart"), options);
+
+chart.render();
+
+    </script>
+</body>
+
+</html>
